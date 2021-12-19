@@ -1,0 +1,72 @@
+#container{
+    display: flex;
+    flex: 1;        
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#header{
+    font-size: 32px;
+    /* background-color:var(--primary-color); */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;    
+    font-family: Roboto,sans-serif;
+    color: var(--font-color);
+    font-weight: bold;
+    text-align: center;
+}
+
+#report{
+    background-color: var(--secundary-color);
+    height: 60%;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    max-height: 550px;
+    width: 360px;
+    border-radius: 8px;   
+    padding: 8px;
+    justify-content: space-between;
+
+}
+
+form input {
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px;    
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-color);
+    
+}
+
+form label{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--font-color);
+    margin: 5px;
+}
+
+#imputsReport{
+    display: flex;
+    flex-direction: column;
+}    
+
+#btnReport{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2px;
+}
+
+#btnReport button{
+    height: 40px;
+    flex: 1;
+    border-radius: 8px;
+    border: 0;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    cursor: pointer;
+}
