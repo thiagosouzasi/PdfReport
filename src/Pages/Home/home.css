@@ -39,6 +39,7 @@ form input {
     padding: 8px;    
     background-color: var(--background-color);
     border: 1px solid var(--primary-color);
+    color: var(--font-color);
     
 }
 
@@ -47,6 +48,15 @@ form label{
     font-weight: bold;
     color: var(--font-color);
     margin: 5px;
+}
+
+form textarea{
+    color: var(--font-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    background-color: var(--background-color);
+    padding: 8px;
+    resize: none;
 }
 
 #imputsReport{
