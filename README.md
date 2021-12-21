@@ -25,13 +25,13 @@ A principal intenção é fornecer a DEVs  iniciantes um ponto de partida para c
 Pré-requisitos npm/yarn
 
 ```bash
-# Clonar o repositório
+# 1- Clonar o repositório
 git clone https://github.com/thiagosouzasi/PdfReport.git
 
-# Entre na pasta do projeto
+# 2- Entre na pasta do projeto
 cd pdf-report
 
-# executar o projeto
+# 3- executar o projeto
 yarn start
 
 ```
