@@ -17,9 +17,9 @@ A principal intenção é fornecer a DEVs  iniciantes um ponto de partida para c
 
 
 ## Layout da Página
-![REACT](src/Assets/Screen.png)
+![Screen](src/Assets/Screen.png)
 ## Amostra do Relatório
-![REACT](src/Assets/Report.png)
+![Report](src/Assets/Report.png)
 
 ## Como executar o projeto
 Pré-requisitos npm/yarn
