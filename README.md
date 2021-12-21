@@ -1,6 +1,7 @@
 # Make PDF Report
 
-Esse é um pequeno projeto mostrando como gerar relatórios em PDF com ReactJS utilizando a lib [PDF Make](http://pdfmake.org/playground.html)
+Esse é um pequeno projeto mostrando como gerar relatórios em PDF com ReactJS utilizando a lib [PDF Make](http://pdfmake.org/playground.html). <br>
+A principal intenção é fornecer a DEVs  iniciantes um ponto de partida para confecção de relatórios dentro de aplicações WEB, tendo em vista que esse é um recurso muito utilizado em aplicações comerciais no dia a dia dos programadores.
 
 ## Licença
 
@@ -16,10 +17,24 @@ Esse é um pequeno projeto mostrando como gerar relatórios em PDF com ReactJS u
 
 
 ## Layout da Página
-
+![REACT](src/Assets/Screen.png)
 ## Amostra do Relatório
+![REACT](src/Assets/Report.png)
 
 ## Como executar o projeto
+Pré-requisitos npm/yarn
+
+```bash
+# Clonar o repositório
+git clone https://github.com/thiagosouzasi/PdfReport.git
+
+# Entre na pasta do projeto
+cd pdf-report
+
+# executar o projeto
+yarn start
+
+```
 
 
 
