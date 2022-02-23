@@ -31,6 +31,9 @@ git clone https://github.com/thiagosouzasi/PdfReport.git
 # 2- Entre na pasta do projeto
 cd pdf-report
 
+#3 Instale as dependências
+npm i
+
 # 3- executar o projeto
 yarn start
 
